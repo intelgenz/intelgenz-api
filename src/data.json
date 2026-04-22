@@ -1,0 +1,467 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john.blackwell",
+      "email": "john.blackwell@intelgenz.com",
+      "password": "Pass@1234",
+      "full_name": "John Blackwell",
+      "role": "Security Analyst",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "organization": "Intelgenz Corp",
+      "plan": "Enterprise"
+    },
+    {
+      "id": 2,
+      "username": "alice.chen",
+      "email": "alice.chen@intelgenz.com",
+      "password": "SecurePass#99",
+      "full_name": "Alice Chen",
+      "role": "Threat Intelligence Lead",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "organization": "CyberShield Inc",
+      "plan": "Pro"
+    },
+    {
+      "id": 3,
+      "username": "marcos.silva",
+      "email": "marcos.silva@intelgenz.com",
+      "password": "M@rcos2025",
+      "full_name": "Marcos Silva",
+      "role": "SOC Manager",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "organization": "FinGuard LatAm",
+      "plan": "Enterprise"
+    },
+    {
+      "id": 4,
+      "username": "priya.nair",
+      "email": "priya.nair@intelgenz.com",
+      "password": "Priya$2024",
+      "full_name": "Priya Nair",
+      "role": "Incident Responder",
+      "avatar": "https://i.pravatar.cc/150?img=47",
+      "organization": "SecureBank Asia",
+      "plan": "Business"
+    },
+    {
+      "id": 5,
+      "username": "david.osei",
+      "email": "david.osei@intelgenz.com",
+      "password": "D@vid!Africa",
+      "full_name": "David Osei",
+      "role": "Malware Researcher",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "organization": "CyberAfrica Labs",
+      "plan": "Pro"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "HELIOS AI",
+      "industry": "FinTech",
+      "type": "B2B AI SaaS",
+      "region": "US-based",
+      "reviewed_by": "Security Admin",
+      "logo": "https://via.placeholder.com/40/FF5733/FFFFFF?text=H",
+      "risk_score": 82,
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "NovaPharma",
+      "industry": "Healthcare",
+      "type": "Enterprise SaaS",
+      "region": "EU-based",
+      "reviewed_by": "Compliance Lead",
+      "logo": "https://via.placeholder.com/40/3498DB/FFFFFF?text=N",
+      "risk_score": 65,
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "TerraLogistics",
+      "industry": "Supply Chain",
+      "type": "B2B Platform",
+      "region": "APAC",
+      "reviewed_by": "Security Admin",
+      "logo": "https://via.placeholder.com/40/2ECC71/FFFFFF?text=T",
+      "risk_score": 45,
+      "status": "Under Review"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Nation-State hackers exploit Libraesva Email Security flaw",
+      "summary": "A critical zero-day vulnerability in Libraesva Email Security is being actively exploited by nation-state threat actors to gain persistent access to corporate mail servers.",
+      "image": "https://picsum.photos/seed/blog1/80/60",
+      "author": "CyberDesk Editorial",
+      "published_at": "2026-04-20T10:00:00Z",
+      "category": "Threat Intelligence",
+      "read_time": "4 min",
+      "url": "https://example.com/blog/nation-state-libraesva"
+    },
+    {
+      "id": 2,
+      "title": "SolarWinds fixed a critical RCE flaw in its Web Help Desk",
+      "summary": "SolarWinds has released an emergency patch addressing a remote code execution vulnerability (CVE-2026-1234) in its popular Web Help Desk product.",
+      "image": "https://picsum.photos/seed/blog2/80/60",
+      "author": "Security Wire",
+      "published_at": "2026-04-19T08:30:00Z",
+      "category": "Vulnerability",
+      "read_time": "3 min",
+      "url": "https://example.com/blog/solarwinds-rce-fix"
+    },
+    {
+      "id": 3,
+      "title": "APT41 linked to new supply chain campaign targeting cloud providers",
+      "summary": "Researchers have attributed a sophisticated supply chain attack on three major cloud infrastructure vendors to the APT41 group backed by China.",
+      "image": "https://picsum.photos/seed/blog3/80/60",
+      "author": "ThreatPost",
+      "published_at": "2026-04-18T12:00:00Z",
+      "category": "APT",
+      "read_time": "6 min",
+      "url": "https://example.com/blog/apt41-supply-chain"
+    },
+    {
+      "id": 4,
+      "title": "Ransomware payments hit record $2.3B in 2025",
+      "summary": "A new report reveals that total ransomware payments surpassed $2.3 billion in 2025, with healthcare and finance sectors bearing the highest costs.",
+      "image": "https://picsum.photos/seed/blog4/80/60",
+      "author": "Intelgenz Research",
+      "published_at": "2026-04-17T09:15:00Z",
+      "category": "Ransomware",
+      "read_time": "5 min",
+      "url": "https://example.com/blog/ransomware-payments-record"
+    },
+    {
+      "id": 5,
+      "title": "CISA warns of active exploitation of Cisco IOS XE vulnerability",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency has added a critical Cisco IOS XE flaw to its known exploited vulnerabilities catalog.",
+      "image": "https://picsum.photos/seed/blog5/80/60",
+      "author": "GovSec Report",
+      "published_at": "2026-04-16T14:00:00Z",
+      "category": "Vulnerability",
+      "read_time": "3 min",
+      "url": "https://example.com/blog/cisa-cisco-ios-xe"
+    },
+    {
+      "id": 6,
+      "title": "New infostealer Lumma 2.0 evades EDR solutions with novel techniques",
+      "summary": "Security researchers have identified an upgraded version of the Lumma infostealer that employs process hollowing and AMSI bypass to evade endpoint detection.",
+      "image": "https://picsum.photos/seed/blog6/80/60",
+      "author": "MalwareBytes Labs",
+      "published_at": "2026-04-15T07:00:00Z",
+      "category": "Malware",
+      "read_time": "7 min",
+      "url": "https://example.com/blog/lumma-2-edr-evasion"
+    },
+    {
+      "id": 7,
+      "title": "Hackers abuse Google OAuth to maintain access after password reset",
+      "summary": "A novel attack technique allows threat actors to maintain persistent access to Google accounts even after victims change their passwords by abusing OAuth token refresh flows.",
+      "image": "https://picsum.photos/seed/blog7/80/60",
+      "author": "CloudSec Weekly",
+      "published_at": "2026-04-14T11:30:00Z",
+      "category": "Identity",
+      "read_time": "5 min",
+      "url": "https://example.com/blog/google-oauth-abuse"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Microsoft patches 147 vulnerabilities in April Patch Tuesday",
+      "summary": "April's Patch Tuesday includes fixes for five zero-days actively exploited in the wild, including a critical CVSS 9.8 vulnerability in Windows LDAP.",
+      "image": "https://picsum.photos/seed/news1/80/60",
+      "source": "Microsoft Security",
+      "published_at": "2026-04-09T18:00:00Z",
+      "category": "Patch Tuesday",
+      "url": "https://example.com/news/microsoft-april-patch"
+    },
+    {
+      "id": 2,
+      "title": "FBI seizes infrastructure tied to RedLine and META infostealer operations",
+      "summary": "A coordinated international law enforcement operation dismantled the infrastructure supporting two prolific infostealer-as-a-service platforms.",
+      "image": "https://picsum.photos/seed/news2/80/60",
+      "source": "FBI Cyber Division",
+      "published_at": "2026-04-08T15:00:00Z",
+      "category": "Law Enforcement",
+      "url": "https://example.com/news/fbi-redline-meta"
+    },
+    {
+      "id": 3,
+      "title": "ENISA releases 2026 Threat Landscape report",
+      "summary": "The European Union Agency for Cybersecurity published its annual report highlighting ransomware, supply chain attacks, and AI-driven social engineering as top threats.",
+      "image": "https://picsum.photos/seed/news3/80/60",
+      "source": "ENISA",
+      "published_at": "2026-04-07T10:00:00Z",
+      "category": "Report",
+      "url": "https://example.com/news/enisa-threat-landscape"
+    },
+    {
+      "id": 4,
+      "title": "Google TAG warns of zero-day in Qualcomm GPU driver exploited in targeted attacks",
+      "summary": "Google's Threat Analysis Group has disclosed a zero-day vulnerability in Qualcomm GPU drivers being exploited in targeted spyware campaigns against journalists.",
+      "image": "https://picsum.photos/seed/news4/80/60",
+      "source": "Google TAG",
+      "published_at": "2026-04-06T09:00:00Z",
+      "category": "Zero-Day",
+      "url": "https://example.com/news/qualcomm-gpu-zero-day"
+    },
+    {
+      "id": 5,
+      "title": "Interpol arrests 41 cybercriminals in Operation Synergia II",
+      "summary": "Operation Synergia II led to the arrest of 41 individuals across 19 countries for roles in ransomware, phishing, and business email compromise schemes.",
+      "image": "https://picsum.photos/seed/news5/80/60",
+      "source": "Interpol",
+      "published_at": "2026-04-05T13:00:00Z",
+      "category": "Law Enforcement",
+      "url": "https://example.com/news/interpol-synergia-ii"
+    }
+  ],
+  "emerging_threats": [
+    {
+      "id": 1,
+      "date": "2026-04-20",
+      "title": "Ransomware Attack on Banking Sector",
+      "threat_type": "Ransomware",
+      "threat_group_names": ["DarkLock", "Shadow Team"],
+      "malware_name": "DarkLocker v3",
+      "target_regions": ["Asia", "North America"],
+      "target_countries": ["India", "United States"],
+      "target_sectors": ["Banking", "Finance"],
+      "severity": "High",
+      "description": "A coordinated ransomware campaign leveraging DarkLocker v3 is actively targeting banking institutions across India and the United States. The threat group employs double extortion tactics with initial access via phishing.",
+      "iocs": {
+        "ip_addresses": ["185.220.101.45", "91.108.4.12"],
+        "domains": ["darklock-pay[.]onion", "payment-recover[.]net"],
+        "file_hashes": ["a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "f0e1d2c3b4a5968778695a4b3c2d1e0f"]
+      },
+      "mitre_ttps": ["T1486", "T1490", "T1566.001"],
+      "report_url": "/reports/1"
+    },
+    {
+      "id": 2,
+      "date": "2026-04-19",
+      "title": "Phishing Campaign Targeting Healthcare",
+      "threat_type": "Phishing",
+      "threat_group_names": ["PhishNet"],
+      "malware_name": "MedStealer",
+      "target_regions": ["Europe"],
+      "target_countries": ["United Kingdom"],
+      "target_sectors": ["Healthcare"],
+      "severity": "Medium",
+      "description": "PhishNet is running a large-scale spear-phishing campaign targeting NHS email addresses, deploying the MedStealer credential harvester via macro-enabled documents.",
+      "iocs": {
+        "ip_addresses": ["45.129.96.180"],
+        "domains": ["nhs-secure-login[.]uk", "medportal-update[.]co"],
+        "file_hashes": ["d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9"]
+      },
+      "mitre_ttps": ["T1566.002", "T1078", "T1539"],
+      "report_url": "/reports/2"
+    },
+    {
+      "id": 3,
+      "date": "2026-04-18",
+      "title": "DDoS Attack on E-commerce Platforms",
+      "threat_type": "DDoS",
+      "threat_group_names": ["StormBreak"],
+      "malware_name": "StormBot",
+      "target_regions": ["Europe"],
+      "target_countries": ["Germany", "France"],
+      "target_sectors": ["E-commerce"],
+      "severity": "High",
+      "description": "StormBreak is conducting massive volumetric DDoS attacks exceeding 900 Gbps against e-commerce infrastructure in Germany and France using their StormBot botnet.",
+      "iocs": {
+        "ip_addresses": ["103.21.244.0", "198.41.208.0"],
+        "domains": [],
+        "file_hashes": []
+      },
+      "mitre_ttps": ["T1498", "T1499"],
+      "report_url": "/reports/3"
+    },
+    {
+      "id": 4,
+      "date": "2026-04-17",
+      "title": "Malware Spread via Mobile Apps",
+      "threat_type": "Malware",
+      "threat_group_names": ["MobThreat"],
+      "malware_name": "AppSpy",
+      "target_regions": ["Global"],
+      "target_countries": ["United States", "India", "Brazil"],
+      "target_sectors": ["Consumer", "Retail"],
+      "severity": "Medium",
+      "description": "Trojanized Android applications distributed via third-party stores are deploying AppSpy spyware that exfiltrates SMS, contacts, and banking credentials.",
+      "iocs": {
+        "ip_addresses": ["77.83.197.9"],
+        "domains": ["app-update-cdn[.]com"],
+        "file_hashes": ["b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7"]
+      },
+      "mitre_ttps": ["T1437", "T1409", "T1412"],
+      "report_url": "/reports/4"
+    },
+    {
+      "id": 5,
+      "date": "2026-04-16",
+      "title": "Insider Threat in IT Company",
+      "threat_type": "Insider Threat",
+      "threat_group_names": [],
+      "malware_name": "N/A",
+      "target_regions": ["North America"],
+      "target_countries": ["Canada"],
+      "target_sectors": ["IT", "Technology"],
+      "severity": "High",
+      "description": "A disgruntled employee at a major IT services firm exfiltrated source code and customer PII using authorized access before resignation. The incident is under forensic investigation.",
+      "iocs": {
+        "ip_addresses": [],
+        "domains": [],
+        "file_hashes": ["c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8"]
+      },
+      "mitre_ttps": ["T1078", "T1052", "T1041"],
+      "report_url": "/reports/5"
+    },
+    {
+      "id": 6,
+      "date": "2026-04-15",
+      "title": "Zero-Day Exploitation in VPN Software",
+      "threat_type": "Zero-Day",
+      "threat_group_names": ["SilentCobra"],
+      "malware_name": "CobraRAT",
+      "target_regions": ["Asia", "Europe"],
+      "target_countries": ["Japan", "Germany", "South Korea"],
+      "target_sectors": ["Government", "Defense"],
+      "severity": "Critical",
+      "description": "SilentCobra is actively exploiting an unpatched zero-day in a widely used enterprise VPN solution to implant CobraRAT for persistent espionage operations against government targets.",
+      "iocs": {
+        "ip_addresses": ["203.0.113.45", "198.51.100.78"],
+        "domains": ["vpn-update-service[.]com", "cobra-c2[.]net"],
+        "file_hashes": ["e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0"]
+      },
+      "mitre_ttps": ["T1190", "T1071.001", "T1105"],
+      "report_url": "/reports/6"
+    },
+    {
+      "id": 7,
+      "date": "2026-04-14",
+      "title": "Cryptojacking Campaign on Cloud Infrastructure",
+      "threat_type": "Cryptojacking",
+      "threat_group_names": ["CloudMiner"],
+      "malware_name": "XMRigCloud",
+      "target_regions": ["Global"],
+      "target_countries": ["United States", "Netherlands", "Singapore"],
+      "target_sectors": ["Cloud", "IT"],
+      "severity": "Low",
+      "description": "CloudMiner is compromising misconfigured Kubernetes clusters to deploy XMRigCloud for Monero mining, causing significant compute cost overruns for victims.",
+      "iocs": {
+        "ip_addresses": ["172.16.254.1"],
+        "domains": ["mining-pool-proxy[.]io"],
+        "file_hashes": ["f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1"]
+      },
+      "mitre_ttps": ["T1609", "T1496"],
+      "report_url": "/reports/7"
+    },
+    {
+      "id": 8,
+      "date": "2026-04-13",
+      "title": "Supply Chain Attack on Open Source Libraries",
+      "threat_type": "Supply Chain",
+      "threat_group_names": ["ChainPoison"],
+      "malware_name": "PoisonPkg",
+      "target_regions": ["Global"],
+      "target_countries": [],
+      "target_sectors": ["Software Development", "IT"],
+      "severity": "High",
+      "description": "ChainPoison published malicious npm and PyPI packages mimicking popular open-source libraries to inject backdoors into developer environments worldwide.",
+      "iocs": {
+        "ip_addresses": ["104.21.90.123"],
+        "domains": ["pkg-registry-mirror[.]dev"],
+        "file_hashes": ["a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2"]
+      },
+      "mitre_ttps": ["T1195.001", "T1059", "T1071"],
+      "report_url": "/reports/8"
+    },
+    {
+      "id": 9,
+      "date": "2026-04-12",
+      "title": "BEC Campaign Targeting CFOs",
+      "threat_type": "BEC",
+      "threat_group_names": ["ScamWire"],
+      "malware_name": "N/A",
+      "target_regions": ["North America", "Europe"],
+      "target_countries": ["United States", "UK", "France"],
+      "target_sectors": ["Finance", "Manufacturing"],
+      "severity": "Medium",
+      "description": "ScamWire is running an AI-powered business email compromise campaign using deepfake voice and email spoofing to impersonate CFOs and authorize fraudulent wire transfers.",
+      "iocs": {
+        "ip_addresses": [],
+        "domains": ["finance-approval-portal[.]com"],
+        "file_hashes": []
+      },
+      "mitre_ttps": ["T1534", "T1586.002"],
+      "report_url": "/reports/9"
+    },
+    {
+      "id": 10,
+      "date": "2026-04-11",
+      "title": "Critical Infrastructure Attack in Latin America",
+      "threat_type": "ICS/SCADA",
+      "threat_group_names": ["GridGhost"],
+      "malware_name": "VoltWorm",
+      "target_regions": ["Latin America"],
+      "target_countries": ["Colombia", "Mexico"],
+      "target_sectors": ["Energy", "Utilities"],
+      "severity": "Critical",
+      "description": "GridGhost has deployed VoltWorm targeting industrial control systems at electrical grid operators in Colombia and Mexico, causing temporary outages and safety concerns.",
+      "iocs": {
+        "ip_addresses": ["192.168.200.45"],
+        "domains": ["ics-update-server[.]net"],
+        "file_hashes": ["b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3"]
+      },
+      "mitre_ttps": ["T0853", "T0816", "T0826"],
+      "report_url": "/reports/10"
+    },
+    {
+      "id": 11,
+      "date": "2026-04-10",
+      "title": "AI-Powered Spear Phishing Surge",
+      "threat_type": "Phishing",
+      "threat_group_names": ["NeuralPhish"],
+      "malware_name": "AILure",
+      "target_regions": ["Global"],
+      "target_countries": [],
+      "target_sectors": ["All Sectors"],
+      "severity": "High",
+      "description": "NeuralPhish is leveraging generative AI to craft hyper-personalized spear-phishing emails with no linguistic tells, dramatically increasing click-through and credential harvest rates.",
+      "iocs": {
+        "ip_addresses": ["45.77.65.211"],
+        "domains": ["ai-secure-verify[.]com"],
+        "file_hashes": ["c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4"]
+      },
+      "mitre_ttps": ["T1566.001", "T1586", "T1589"],
+      "report_url": "/reports/11"
+    },
+    {
+      "id": 12,
+      "date": "2026-04-09",
+      "title": "Espionage Campaign Targeting Telecom Firms",
+      "threat_type": "Espionage",
+      "threat_group_names": ["TeleSnoop"],
+      "malware_name": "TeleTap",
+      "target_regions": ["Middle East", "Asia"],
+      "target_countries": ["UAE", "Saudi Arabia", "Pakistan"],
+      "target_sectors": ["Telecom"],
+      "severity": "High",
+      "description": "TeleSnoop is conducting long-term espionage against telecom operators to intercept SMS-based MFA codes and conduct subscriber location tracking.",
+      "iocs": {
+        "ip_addresses": ["80.94.92.249"],
+        "domains": ["telecom-monitoring[.]net"],
+        "file_hashes": ["d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5"]
+      },
+      "mitre_ttps": ["T1040", "T1557", "T1428"],
+      "report_url": "/reports/12"
+    }
+  ]
+}
